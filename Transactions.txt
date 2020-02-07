@@ -1,0 +1,61 @@
+COUNTRY
+    CountryId   Numeric(6, 0)   PK
+    CountryName VarChar(50)     UQ
+
+
+TYPEOFSHOW
+    TypeOfShowId    Numeric(6, 0)   PK
+    TypeOfShowName  VarChar(50)     UQ
+
+PLACE
+    PlaceId         Numeric(6, 0)   PK
+    PaceName        VarChar(50)     UQ
+    PlaceImage      Image
+
+    CountryId       Numeric(6, 0)   FK
+    CountryName     VarChar(50)
+    
+    SECTOR          Subtype
+        SectorId                    Numeric(6, 0)   PK
+        SectorName                  VarChar(50)     UQ  ?
+        SectorQuantityLocations     Numeric(6, 0)
+        SectorPrice                 Numeric(9, 2)
+        SectorReservedLocations     Numeric(6, 0)
+        SectorAvailableLocations    Numeric(6, 0)       (f = SectorQuantityLocations - SectorReservedLocations)
+
+SHOW
+    ShowId                      Numeric(6, 0)   PK
+    ShowName                    VarChar(50)
+    ShowDate                    Date
+    ShowImage                   Image
+    ShowAvailableLocations      Numeric(9, 0)           (f)
+
+    CountryId                   Numeric(6, 0)           SubGroup
+    CountryName                 VarChar(50)
+
+    PlaceId                     Numeric(6, 0)
+    PlaceName                   VarChar(50)
+    AvailableSectors            ListOfSectors           ?
+
+    TypeOfShowId                Numeric(6, 0)
+    TypeOfShowName              VarChar(50)
+    
+
+SALE
+    SaleId                      Numeric(6, 0)   PK
+    SaleDate                    Date
+    SaleCountryId               Numeric(6, 0)           SubGroup
+    SaleCountryName             VarChar(50)    
+
+    ShowId                      Numeric(6, 0)
+    ShowName                    VarChar(50)
+    ShowDate                    Date
+    ShowImage                   Image
+    ShowAvailableLocations      Numeric(9, 0)           (f)
+    CountryId                   Numeric(6, 0)           SubGroup
+    CountryName                 VarChar(50)
+    PlaceId                     Numeric(6, 0)
+    PlaceName                   VarChar(50)
+    AvailableSectors            ListOfSectors           ?
+    TypeOfShowId                Numeric(6, 0)
+    TypeOfShowName              VarChar(50)

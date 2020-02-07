@@ -1,0 +1,7 @@
+Evaluar el diagrama
+Completar el diagrama con los atributos
+
+Estructura de Transactions.txt
+
+Entity
+    Attrubute       Domain      Restrictions/Functions        Notes
