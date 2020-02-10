@@ -5,3 +5,8 @@ Estructura de Transactions.txt
 
 Entity
     Attrubute       Domain      Restrictions/Functions        Notes
+
+
+Faltan definir atributos (formulas) de Show, y Sale.
+
+Definir Pattern WW
