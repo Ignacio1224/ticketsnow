@@ -1,0 +1,15 @@
+Pasos para subir los cambios
+
+En el CMD:
+
+    git add .
+    git commit -m "Comentario de lo realizado en el commit"
+    git push
+
+En caso de querer volver al ultimo commit guardado
+    git checkout .
+
+NOTA:
+    Antes de empezar a trabajar en el commit es necesario tener actualizada el area de trabajo, (esto se hace con git pull)
+
+En caso de error de tipo merge, Nacho los soluciona JAJAJAJA
