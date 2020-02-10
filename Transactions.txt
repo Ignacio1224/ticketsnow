@@ -1,3 +1,8 @@
+DOMAINS
+    Id = Numeric(6, 0)
+    Name = VarChar(50)
+    Money = Numeric(9, 2)
+
 COUNTRY
     CountryId   Numeric(6, 0)   PK
     CountryName VarChar(50)     UQ
@@ -17,7 +22,7 @@ PLACE
     
     SECTOR          Subtype
         SectorId                    Numeric(6, 0)   PK
-        SectorName                  VarChar(50)     UQ  ?
+        SectorName                  VarChar(50)     UQ
         SectorQuantityLocations     Numeric(6, 0)
         SectorPrice                 Numeric(9, 2)
         SectorReservedLocations     Numeric(6, 0)
@@ -35,7 +40,7 @@ SHOW
 
     PlaceId                     Numeric(6, 0)
     PlaceName                   VarChar(50)
-    AvailableSectors            ListOfSectors           ?
+    AvailableSectors            ListOfSectors           
 
     TypeOfShowId                Numeric(6, 0)
     TypeOfShowName              VarChar(50)
@@ -51,11 +56,11 @@ SALE
     ShowName                    VarChar(50)
     ShowDate                    Date
     ShowImage                   Image
-    ShowAvailableLocations      Numeric(9, 0)           (f)
-    CountryId                   Numeric(6, 0)           SubGroup
+    ShowAvailableLocations      Numeric(9, 0)           
+    CountryId                   Numeric(6, 0)           
     CountryName                 VarChar(50)
     PlaceId                     Numeric(6, 0)
     PlaceName                   VarChar(50)
-    AvailableSectors            ListOfSectors           ?
+    AvailableSectors            ListOfSectors           
     TypeOfShowId                Numeric(6, 0)
     TypeOfShowName              VarChar(50)
