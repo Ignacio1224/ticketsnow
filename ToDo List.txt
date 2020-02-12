@@ -6,5 +6,4 @@ Entity
 Definir Pattern WW
 
 Documento 302
-	Agregar diagrama de las transacciones, y tablas
-	Agregar Estructura de Transacciones
+	Revisar documento
