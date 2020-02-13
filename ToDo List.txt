@@ -5,5 +5,3 @@ Entity
 
 Definir Pattern WW
 
-Documento 302
-	Revisar documento
