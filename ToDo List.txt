@@ -3,5 +3,5 @@ Estructura de Transactions.txt
 Entity
     Attrubute       Domain      Restrictions/Functions        Notes
 
-Definir Pattern WW
-
+Items Realizados
+	1 - 3 - 5 Falta que sea en el evento de save - 6 - 7 - 
