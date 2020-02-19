@@ -7,11 +7,6 @@ Entity
 Proporciones de imagen 1.815
 
 Items Realizados
-	1 - 3 - 5 - 6 - 7 - 8 - 10 - 
+	1 - 3 - 4 - 5 - 6 - 7 - 8 - 9 - 10 - 11/2
 
 Correcciones
-
-Al ingresar un nuevo evento, no se controla el campo de Available Locations, 
-por lo que permite el ingreso de mas lugares de los que hay disponibles.
-
-El precio no se puede modificar una vez ingresado. 
