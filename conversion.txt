@@ -1,0 +1,19 @@
+--------------------------------------------------------------------------------
+GeneXus Version: 16.0.7 U138086
+--------------------------------------------------------------------------------
+:::::::::Knowledge Base Conversion:::::::::
+Working directory created on D:\Respaldo\ORT\Talleres\Taller Genexus\Obligatorio GX\ticketsnow\Conversion.tmp.
+:::::::::Creating Tables:::::::::
+Creating database 'GX_KB_correccion': connection string: 'Data Source=DESKTOP-56KLT49;Trusted_Connection=true;Application Name=GeneXus 16 Trial (16.0.138086 U7) PID(13392)'
+Copying File 'attribut' to 'attribut'...---------------------------------------------------------
+Could not find file 'D:\Respaldo\ORT\Talleres\Taller Genexus\Obligatorio GX\ticketsnow\attribut.dat'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Artech.KbConversion.BL.KBConversion.CopyFile(String sourceName, String destName)
+   at Artech.KbConversion.BL.KBConversion.CopyRochaDatFiles()
+   at Artech.KbConversion.BL.KBConversion.ConvertFromRochaCTree()
+
+>>>ERROR: Could not find file 'D:\Respaldo\ORT\Talleres\Taller Genexus\Obligatorio GX\ticketsnow\attribut.dat'.
+:::::::::Knowledge Base Conversion:::::::::Failed
+Could not find file 'D:\Respaldo\ORT\Talleres\Taller Genexus\Obligatorio GX\ticketsnow\attribut.dat'.
