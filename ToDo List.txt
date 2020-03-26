@@ -22,8 +22,6 @@ Agregar filtro de tipo de show en show + Argumentacion y ventajas
 
 Argumentar Filtros o no en listados PDF
 
-Espectáculos agrupados por tipo de espectáculo y país + info
-
 Filtro en el chart ?
 
 Agregar documentacion como se utiliza la tabla dinamica
