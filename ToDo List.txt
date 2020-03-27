@@ -10,21 +10,4 @@ Items Realizados
 	1 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - 9 - 10 - 11 - 12
 
 
-
-SI NO FUNK = Impact + Rebuild All + Run
-
-
-Agregar filtros en listados pdf // opcional
-
-Controlar update en show cuando se efectua, o cuando no hay ventas, etc.
-
-Agregar filtro de tipo de show en show + Argumentacion y ventajas
-
-Argumentar Filtros o no en listados PDF
-
-Filtro en el chart ?
-
-Agregar documentacion como se utiliza la tabla dinamica
-
-Juego de pruebas + grande
-
+Juego de pruebas + grande ??
